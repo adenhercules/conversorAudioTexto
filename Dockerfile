@@ -1,7 +1,7 @@
 # /Dockerfile
 
 # 1. Use uma imagem base do Python
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # 2. Instale o FFMPEG (dependência do Whisper)
 # Esta é a principal razão de usarmos o Docker
